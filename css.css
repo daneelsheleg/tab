@@ -1,0 +1,30 @@
+.button {
+	display: flex;
+	justify-content: center;
+}
+		.button .btn {
+		    height: 50px;
+		    width: 170px;
+		    border: 1px solid;
+		    font-size: 24px;
+		    background-color:#E56B55 ;
+		}
+				.button .active {
+					background-color: #E543D2;
+				}
+.news {
+	font-size: 18px;
+}
+		.news .new-papper {
+			display: none;
+			text-transform: uppercase;
+			background-color:#E5DCE5;
+		}
+				.news .start {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 500px;
+					height: 120px;
+					overflow: scroll;
+				}
